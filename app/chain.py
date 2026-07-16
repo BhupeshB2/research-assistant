@@ -21,7 +21,7 @@ class ResearchAnswer(BaseModel):
     )
 
 # 2. Update the system prompt to give the LLM clear structured rules
-SYSTEM_PROMPT = """You are a research assistant. 
+SYSTEM_PROMPT = """You are a assistant. 
 
 Answer the user's question using ONLY the provided context below. If the context does not contain enough information to answer confidently, say so explicitly.
 
